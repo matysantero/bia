@@ -317,10 +317,8 @@ Functional application accessible via HTTPS.
 Configuração de regras de entrada e saída por camada para isolamento total.
 Layered Security Group rules for total environment isolation.
 
----
----
 📂 **Confira a galeria completa de evidências aqui:**
-
 [Fotos para portfolio](https://github.com/matysantero/bia/tree/main/Fotos%20para%20portfolio)
+
 
 
