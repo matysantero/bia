@@ -290,3 +290,30 @@ Part of my cloud/DevOps career transition portfolio, alongside:
 *Infrastructure deployed on AWS (us-east-1) — torn down after documentation to avoid idle costs. All components validated in a live production environment.*
 ```
 
+📸 Evidências de Produção / Production Evidence
+Note: The following infrastructure was live and tested in us-east-1. Resources were decommissioned after documentation to optimize AWS costs.
+
+1. Orquestração e Alta Disponibilidade (ECS & ALB)
+O tráfego é distribuído em múltiplas zonas de disponibilidade (AZs) garantindo resiliência.
+Traffic is distributed across multiple Availability Zones (AZs) ensuring resilience.
+
+2. Banco de Dados Gerenciado (RDS Multi-AZ)
+Configuração com isolamento de rede e endpoints de leitura/escrita.
+Managed database with network isolation and read/write endpoints.
+
+3. Pipeline CI/CD Automatizado (CodeBuild & CodePipeline)
+Despliegue automático con versionamiento por commit hash.
+Automated deployment with commit-hash versioning.
+
+4. Agente de IA com MCP Server
+A IA acessando o banco de dados em tempo real para consultas contextuais.
+AI accessing the database in real-time for contextual queries.
+
+5. Interface da Aplicação (Frontend)
+Aplicação funcional acessível via HTTPS.
+Functional application accessible via HTTPS.
+
+6. Segurança e Redes (Security Groups)
+Configuração de regras de entrada e saída por camada para isolamento total.
+Layered Security Group rules for total environment isolation.
+
